@@ -20,7 +20,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Overview
 
-I was scaring from CSS just few days ago but then I saw some video about someone's experience he showed me a tutorial and its great I am still watching that tutorial and it making feel me great because I can understand how HTML and CSS works. It feels great. I can not tell you how good feeling this is. How ever I finished this challenge and suprisingly I done responsive design without knowing I am making responsive design. I just used the flex. After finishing the Desktop version I typed how to make responsive design without meida queries and it was saying use flex, grid etc. I knew Used flex then I thought about is that posible to I made the card responsive without knowing I am making a responsive design then I just realised I made a responsive design Without knowing I am making a responsive design. Its good Please take a look to my project and tell me where I was good Where I could improve
+I was afraid from CSS, just few days ago but then I saw a video about someone's experience. I saw a tutorial and it was great and I am still watching that tutorial. It makes me feel great because I can understand now how HTML and CSS works. It feels great. I can not tell you how good feeling this is. How ever I finished this challenge and suprisingly I done responsive design without knowing I am making responsive design. I just used the flex. After finishing the Desktop version I typed how to make responsive design without meida queries and it was saying use flex, grid etc. I knew I've used flex. Then I thought about is that posible to make a responsive without knowing its a responsive design. I was making a responsive design then I just realised I made a responsive design Without knowing thats a responsive design.
 
 ### The challenge
 
@@ -48,10 +48,10 @@ First I wrote all the HTML then I gave some background color to my wrapper eleme
 
 ### What I learned
 
-I learned flex and grid can be used for responsive design, letter spacing, and some blue neon
+I have learned flex and grid can be used for responsive design, letter spacing, and some blue neon
 
 ```html
-I am proud of all the class names i gave to my HTML elements
+I am proud of all the class names I chose to my HTML elements
 ```
 
 ```css
