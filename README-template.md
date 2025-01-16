@@ -39,68 +39,121 @@ Users should be able to:
 
 ## My process
 
+First I wrote all the HTML then I gave some background color to my wrapper element then all the css from in a order top to bottom.
+
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- Semi-semantic HTML5
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+I learned flex and grid can be used for responsive design, letter spacing, and some blue neon
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+I am proud of all the class names i gave to my HTML elements
 ```
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+body {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  background-color: hsl(47, 88%, 63%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+main {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 337px;
+  margin: 0 auto;
+  margin-top: 200px;
+  border-radius: 20px;
+  border: 2px solid #000;
+  box-shadow: 8px 8px 0px #000;
+}
+.lesson--img {
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.status {
+  display: inline-block;
+  background-color: gold;
+  width: 80px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+.publish-date {
+  letter-spacing: -0.3px;
+  font-size: 12px;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+.link:link,
+.link:visited {
+  display: inline-block;
+  font-weight: 800;
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+}
+.link:hover,
+.link:active {
+  color: hsl(47, 88%, 63%);
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff,
+    0 0 80px #0ff;
+}
+.description {
+  color: #777;
+}
+.author--description {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile--photo {
+  width: 35px;
+  height: 35px;
+}
+.author {
+  font-weight: 800;
+  color: #333;
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Using Flex
+Using Grid
+Shadowing
+text-align
+justify-content
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing) - I was stuck with how does letter spacing work first I tried to put some value with '0.1' but it did not work then I typed how can I use it then I saw The MDN Web Docs at the top of the page there is some value that saying use with 'minus' I said thats it I am going to code it then I coded it.
+- [Figma](https://www.figma.com/) - Figma helped me to look at the example.
+- [ChatGPT](https://chatgpt.com/) - I learned Flex and Grid can be responsive.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@BenixCat](https://www.frontendmentor.io/profile/BenixCat)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thanks ChatGPT for teaching me Grid and Flex can be responsive.
